@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-unexpected-markdown",
+  "version": "1.0.0",
+  "description": "A Metalsmith plugin for writing markdown with evaluated examples and syntax highlighting",
+  "main": "./lib/metalsmith-unexpected-markdown.js",
+  "bugs": "https://github.com/unexpectedjs/metalsmith-unexpected-markdown/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unexpectedjs/metalsmith-unexpected-markdown"
+  },
+  "keywords": [
+    "metalsmith",
+    "unexpected",
+    "documentation"
+  ],
+  "peerDependencies": {
+    "unexpected": "*"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "debug": "2.1.1",
+    "magicpen-prism": "1.1.1",
+    "marked": "0.3.3",
+    "passerror": "1.1.0"
+  },
+  "author": "Sune Simonsen",
+  "license": "MIT"
+}
