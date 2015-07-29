@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-unexpected-markdown",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "A Metalsmith plugin for writing markdown with evaluated examples and syntax highlighting",
   "main": "./lib/metalsmith-unexpected-markdown.js",
   "bugs": "https://github.com/unexpectedjs/metalsmith-unexpected-markdown/issues",
