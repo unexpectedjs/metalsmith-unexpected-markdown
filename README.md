@@ -2,9 +2,9 @@ A Metalsmith plugin for writing markdown with evaluated examples and
 syntax highlighting.
 
 This Metalsmith plugin uses the markdown parser
-[marked](https://github.com/chjj/marked) to generate html output from
-markdown files. In addition to wath marked already offers, this plugin
-uses [magicpen-prism](https://github.com/unexpectedjs/magicpen-prism)
+[unexpected-markdown](https://github.com/unexpectedjs/unexpected-markdown) to generate html output from
+markdown files. In addition to what [marked](https://github.com/chjj/marked) already offers, this plugin
+uses [magicpen-prism](,https://github.com/unexpectedjs/magicpen-prism)
 to syntax highlight code blocks and uses
 [unexpected](http://unexpectedjs.github.io/) to evaluate JavaScript
 code examples.
