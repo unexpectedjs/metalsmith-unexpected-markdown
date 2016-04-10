@@ -13,6 +13,9 @@
     "unexpected",
     "documentation"
   ],
+  "scripts": {
+    "lint": "eslint ."
+  },
   "peerDependencies": {
     "unexpected": "*"
   },
@@ -23,5 +26,9 @@
     "unexpected-markdown": "^1.2.0"
   },
   "author": "Sune Simonsen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.7.0",
+    "eslint-config-onelint": "1.0.2"
+  }
 }
