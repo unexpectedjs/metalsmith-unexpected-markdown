@@ -20,7 +20,7 @@
     "async": "^2.3.0",
     "debug": "2.1.1",
     "extend": "3.0.0",
-    "unexpected-markdown": "git://github.com/unexpectedjs/unexpected-markdown.git#77e297c"
+    "unexpected-markdown": "^5.0.0"
   },
   "author": "Sune Simonsen",
   "license": "MIT",
