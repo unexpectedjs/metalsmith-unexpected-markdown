@@ -25,7 +25,6 @@ metalSmith(__dirname)
     }))
     .use(require('metalsmith-unexpected-markdown')({
         unexpected: require('../lib/'),
-        testFile: path.resolve(__dirname, '..', 'test', 'documentation.spec.js'),
         updateExamples: 'update-examples' in argv
     }));
 ```
@@ -34,9 +33,6 @@ Options:
 
 * _unexpected_: (Optional) instead of letting the plugin require
   unexpected, you can pass an instance.
-* _testFile_: (Optional) if you specify a path for a test file, a test
-  file will be generated containing evaluations of all the examples in
-  the markdown files.
 * _updateExamples_: (Optional) setting this option to true, updates
   the expected output in all the markdown files. This is useful when
   you do a lot of validation on the error output of examples.
