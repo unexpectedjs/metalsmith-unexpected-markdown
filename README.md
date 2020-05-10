@@ -6,13 +6,13 @@ This Metalsmith plugin uses the markdown parser
 markdown files. In addition to what [marked](https://github.com/chjj/marked) already offers, this plugin
 uses [magicpen-prism](,https://github.com/unexpectedjs/magicpen-prism)
 to syntax highlight code blocks and uses
-[unexpected](http://unexpectedjs.github.io/) to evaluate JavaScript
+[unexpected](https://unexpected.js.org/) to evaluate JavaScript
 code examples.
 
 Right now the documentation for this plugin is pretty lacking, until
 that is fixed the best example on how to use the plugin is to look at
 how it is used in
-[unexpected](http://unexpectedjs.github.io/).
+[unexpected](https://unexpected.js.org/).
 
 ```js
 metalSmith(__dirname)
@@ -54,5 +54,5 @@ That are a few things you can achieve more then what is explained
 above, like async examples with promises and skiping examples for
 different environments or just skipping evaluation altogether. For now
 you'll have to look at how
-[unexpected](http://unexpectedjs.github.io/)
+[unexpected](https://unexpected.js.org/)
 does it to learn the ticks.
