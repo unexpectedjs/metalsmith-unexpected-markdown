@@ -25,7 +25,7 @@
   "author": "Sune Simonsen",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "2.13.1",
+    "eslint": "7.1.0",
     "eslint-config-onelint": "1.2.0"
   }
 }
